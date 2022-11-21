@@ -3,6 +3,8 @@ lockfileVersion: 5.4
 specifiers:
   '@commitlint/cli': ^17.1.2
   '@commitlint/config-conventional': ^17.1.0
+  '@types/react': ^18.0.25
+  '@types/react-dom': ^18.0.9
   '@umijs/lint': ^4.0.0
   dumi: ^2.0.0-rc.0
   eslint: ^8.23.0
@@ -19,8 +21,10 @@ specifiers:
 devDependencies:
   '@commitlint/cli': 17.2.0
   '@commitlint/config-conventional': 17.2.0
+  '@types/react': 18.0.25
+  '@types/react-dom': 18.0.9
   '@umijs/lint': 4.0.32_7vz6irljkpqvl7ijwubbpzn6i4
-  dumi: 2.0.3_xgbqj6fguo7kan2ufc2v2cdr6u
+  dumi: 2.0.3_56frauz6z7jgqw7nhgbwq7tddm
   eslint: 8.28.0
   father: 4.1.0
   husky: 8.0.2
@@ -935,20 +939,20 @@ packages:
       '@floating-ui/core': 0.6.2
     dev: true
 
-  /@floating-ui/react-dom-interactions/0.3.1_ef5jwxihqo6n7gxfmzogljlgcm:
+  /@floating-ui/react-dom-interactions/0.3.1_633m7c4we3uekpyriichjdp5zu:
     resolution: {integrity: sha512-tP2KEh7EHJr5hokSBHcPGojb+AorDNUf0NYfZGg/M+FsMvCOOsSEeEF0O1NDfETIzDnpbHnCs0DuvCFhSMSStg==}
     dependencies:
-      '@floating-ui/react-dom': 0.6.3_ef5jwxihqo6n7gxfmzogljlgcm
-      aria-hidden: 1.2.2_react@18.1.0
+      '@floating-ui/react-dom': 0.6.3_633m7c4we3uekpyriichjdp5zu
+      aria-hidden: 1.2.2_bdz24qqfrh65xpuxqhiajc2kii
       point-in-polygon: 1.1.0
-      use-isomorphic-layout-effect: 1.1.2_react@18.1.0
+      use-isomorphic-layout-effect: 1.1.2_bdz24qqfrh65xpuxqhiajc2kii
     transitivePeerDependencies:
       - '@types/react'
       - react
       - react-dom
     dev: true
 
-  /@floating-ui/react-dom/0.6.3_ef5jwxihqo6n7gxfmzogljlgcm:
+  /@floating-ui/react-dom/0.6.3_633m7c4we3uekpyriichjdp5zu:
     resolution: {integrity: sha512-hC+pS5D6AgS2wWjbmSQ6UR6Kpy+drvWGJIri6e1EDGADTPsCaa4KzCgmCczHrQeInx9tqs81EyDmbKJYY2swKg==}
     peerDependencies:
       react: '>=16.8.0'
@@ -957,7 +961,7 @@ packages:
       '@floating-ui/dom': 0.4.5
       react: 18.1.0
       react-dom: 18.1.0_react@18.1.0
-      use-isomorphic-layout-effect: 1.1.2_react@18.1.0
+      use-isomorphic-layout-effect: 1.1.2_bdz24qqfrh65xpuxqhiajc2kii
     transitivePeerDependencies:
       - '@types/react'
     dev: true
@@ -1885,6 +1889,12 @@ packages:
     resolution: {integrity: sha512-JCB8C6SnDoQf0cNycqd/35A7MjcnK+ZTqE7judS6o7utxUCg6imJg3QK2qzHKszlTjcj2cn+NwMB2i96ubpj7w==}
     dev: true
 
+  /@types/react-dom/18.0.9:
+    resolution: {integrity: sha512-qnVvHxASt/H7i+XG1U1xMiY5t+IHcPGUK7TDMDzom08xa7e86eCeKOiLZezwCKVxJn6NEiiy2ekgX8aQssjIKg==}
+    dependencies:
+      '@types/react': 18.0.25
+    dev: true
+
   /@types/react/18.0.25:
     resolution: {integrity: sha512-xD6c0KDT4m7n9uD4ZHi02lzskaiqcBxf4zi+tXZY98a04wvc0hi/TcCPC2FOESZi51Nd7tlUeOJY8RofL799/g==}
     dependencies:
@@ -2325,7 +2335,7 @@ packages:
       tsx: 3.12.1
     dev: true
 
-  /@umijs/preset-umi/4.0.32:
+  /@umijs/preset-umi/4.0.32_@types+react@18.0.25:
     resolution: {integrity: sha512-pXUjOLVNtGZHdoM3YzU37no7AmheSIBCVw3rvbl/iisFm5MBppf2wXL9Y67ZKHdZY2wZqSpSdQjWK8P+9vR+JA==}
     dependencies:
       '@umijs/ast': 4.0.32
@@ -2342,7 +2352,7 @@ packages:
       '@umijs/server': 4.0.32
       '@umijs/utils': 4.0.32
       babel-plugin-dynamic-import-node: 2.3.3
-      click-to-react-component: 1.0.8_ef5jwxihqo6n7gxfmzogljlgcm
+      click-to-react-component: 1.0.8_633m7c4we3uekpyriichjdp5zu
       core-js: 3.22.4
       current-script-polyfill: 1.0.0
       enhanced-resolve: 5.9.3
@@ -2626,7 +2636,7 @@ packages:
     resolution: {integrity: sha512-8+9WqebbFzpX9OR+Wa6O29asIogeRMzcGtAINdpMHHyAg10f05aSFVBbcEqGf/PXw1EjAZ+q2/bEBg3DvurK3Q==}
     dev: true
 
-  /aria-hidden/1.2.2_react@18.1.0:
+  /aria-hidden/1.2.2_bdz24qqfrh65xpuxqhiajc2kii:
     resolution: {integrity: sha512-6y/ogyDTk/7YAe91T3E2PR1ALVKyM2QbTio5HwM+N1Q6CMlCKhvClyIjkckBswa0f2xJhjsfzIGa1yVSe1UMVA==}
     engines: {node: '>=10'}
     peerDependencies:
@@ -2636,6 +2646,7 @@ packages:
       '@types/react':
         optional: true
     dependencies:
+      '@types/react': 18.0.25
       react: 18.1.0
       tslib: 2.4.1
     dev: true
@@ -3269,12 +3280,12 @@ packages:
     resolution: {integrity: sha512-GRMWDxpOB6Dgk2E5Uo+3eEBvtOOlimMmpbFiKuLFnQzYDavtLFY3K5ona41jgN/WdRZtG7utuVSVTL4HbZHGkw==}
     dev: true
 
-  /click-to-react-component/1.0.8_ef5jwxihqo6n7gxfmzogljlgcm:
+  /click-to-react-component/1.0.8_633m7c4we3uekpyriichjdp5zu:
     resolution: {integrity: sha512-YBNYOp00udy+NBEnUmM/3Df0Yco1iHNQ8k0ltlJVcDYK9AuYt14xPoJicBh/BokLqbzkci1p+pbdY5r4JXZC4g==}
     peerDependencies:
       react: '>=16.8.0'
     dependencies:
-      '@floating-ui/react-dom-interactions': 0.3.1_ef5jwxihqo6n7gxfmzogljlgcm
+      '@floating-ui/react-dom-interactions': 0.3.1_633m7c4we3uekpyriichjdp5zu
       htm: 3.1.1
       react: 18.1.0
       react-merge-refs: 1.1.0
@@ -3998,7 +4009,7 @@ packages:
     resolution: {integrity: sha512-a/Y5lf0G6gwsEQ9hop/n03CcjmHsGBk384Cz/AEX6mRYrfSpUx/lQvP9HLoXkCzScl9PL1sSmLPnMkgaXDCZLA==}
     dev: true
 
-  /dumi/2.0.3_xgbqj6fguo7kan2ufc2v2cdr6u:
+  /dumi/2.0.3_56frauz6z7jgqw7nhgbwq7tddm:
     resolution: {integrity: sha512-fs8vNPN6/nAzq9FAMzPAXACW0+z2WjOdrsgFOt0uc2EHhgelciKg4cbTN9wJ9AM2CBHgnsgE+/w+ABL6brrxWw==}
     hasBin: true
     peerDependencies:
@@ -4053,7 +4064,7 @@ packages:
       remark-rehype: 10.1.0
       sass: 1.56.1
       sitemap: 7.1.1
-      umi: 4.0.32_xgbqj6fguo7kan2ufc2v2cdr6u
+      umi: 4.0.32_56frauz6z7jgqw7nhgbwq7tddm
       unified: 10.1.2
       unist-util-visit: 4.1.1
       unist-util-visit-parents: 5.1.1
@@ -11158,7 +11169,7 @@ packages:
     hasBin: true
     dev: true
 
-  /umi/4.0.32_xgbqj6fguo7kan2ufc2v2cdr6u:
+  /umi/4.0.32_56frauz6z7jgqw7nhgbwq7tddm:
     resolution: {integrity: sha512-OuR3n8X9ky8vOWM114LPg4KyzQyf+5UO/F3Qt4GLgON6XKwkNi88sxXdGTFawyLEiE/S5QG5IToju0SOURzfZQ==}
     engines: {node: '>=14'}
     hasBin: true
@@ -11168,7 +11179,7 @@ packages:
       '@umijs/bundler-webpack': 4.0.32
       '@umijs/core': 4.0.32
       '@umijs/lint': 4.0.32_7vz6irljkpqvl7ijwubbpzn6i4
-      '@umijs/preset-umi': 4.0.32
+      '@umijs/preset-umi': 4.0.32_@types+react@18.0.25
       '@umijs/renderer-react': 4.0.32_biqbaboplfbrettd7655fr4n2y
       '@umijs/server': 4.0.32
       '@umijs/test': 4.0.32
@@ -11359,7 +11370,7 @@ packages:
       querystring: 0.2.0
     dev: true
 
-  /use-isomorphic-layout-effect/1.1.2_react@18.1.0:
+  /use-isomorphic-layout-effect/1.1.2_bdz24qqfrh65xpuxqhiajc2kii:
     resolution: {integrity: sha512-49L8yCO3iGT/ZF9QttjwLF/ZD9Iwto5LnH5LmEdk/6cFmXddqi2ulF0edxTwjj+7mqvpVVGQWvbXZdn32wRSHA==}
     peerDependencies:
       '@types/react': '*'
@@ -11368,6 +11379,7 @@ packages:
       '@types/react':
         optional: true
     dependencies:
+      '@types/react': 18.0.25
       react: 18.1.0
     dev: true
 

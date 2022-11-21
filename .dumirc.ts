@@ -6,4 +6,7 @@ export default defineConfig({
   themeConfig: {
     name: 'dumi2-template',
   },
+  alias: {
+    '@': 'src'
+  }
 });
