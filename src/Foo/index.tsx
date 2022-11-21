@@ -1,7 +1,7 @@
 import { add } from '@/utils/common.util';
 import React, { useState, type FC } from 'react';
 
-const Foo: FC<{ title: string }> = (props) => {
+const Foo: FC<{ title: string }> = () => {
   const [a, setA] = useState(1);
   const [b, setB] = useState(1);
 
