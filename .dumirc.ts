@@ -1,5 +1,4 @@
 import { defineConfig } from 'dumi';
-import path from 'path';
 
 export default defineConfig({
   outputPath: 'docs-dist',
@@ -7,6 +6,6 @@ export default defineConfig({
     name: 'dumi2-template',
   },
   alias: {
-    '@': 'src'
-  }
+    '@': 'src',
+  },
 });
