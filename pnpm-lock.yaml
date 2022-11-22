@@ -19,9 +19,6 @@ specifiers:
   react-dom: ^18.0.0
   stylelint: ^14.9.1
 
-dependencies:
-  lodash: 4.17.21
-
 devDependencies:
   '@commitlint/cli': 17.2.0
   '@commitlint/config-conventional': 17.2.0
@@ -33,6 +30,7 @@ devDependencies:
   father: 4.1.0
   husky: 8.0.2
   lint-staged: 13.0.3
+  lodash: 4.17.21
   prettier: 2.7.1
   prettier-plugin-organize-imports: 3.2.0_prettier@2.7.1
   prettier-plugin-packagejson: 2.3.0_prettier@2.7.1
@@ -7102,6 +7100,7 @@ packages:
 
   /lodash/4.17.21:
     resolution: {integrity: sha512-v2kDEe57lecTulaDIuNTPy3Ry4gLGJ6Z1O3vE1krgXZNrsQ+LFTGHVxVjcXPs17LhbZVGedAJv8XZ1tvj5FvSg==}
+    dev: true
 
   /log-symbols/2.2.0:
     resolution: {integrity: sha512-VeIAFslyIerEJLXHziedo2basKbMKtTw3vfn5IzG0XTjhAVEJyNHnL2p7vc+wBDSdQuUpNw3M2u6xb9QsAY5Eg==}
