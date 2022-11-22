@@ -11,5 +11,6 @@ export default defineConfig({
   },
   // base 只和路由有关，publicPath 影响资源文件的访问
   // base 和 publicPath 的配置只在 build 时有效，umi dev 写死为 /，不可配
+  base: '/dumi2-template/',
   publicPath: '/dumi2-template/',
 });
