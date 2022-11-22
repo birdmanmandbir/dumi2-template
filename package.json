@@ -2,6 +2,7 @@
   "name": "dumi2-template",
   "version": "0.0.1",
   "description": "",
+  "homepage": "https://birdmanmandbir.github.io/dumi2-template",
   "license": "MIT",
   "module": "dist/index.js",
   "types": "dist/types.d.ts",
