@@ -22,10 +22,10 @@ jobs:
         node: 16.14
     - run: pnpm install && pnpm run docs:build
     - name: deploy
-        uses: JamesIves/github-pages-deploy-action@v4.3.3
-        with:
-          branch: master
-          folder: docs-dist
+      uses: JamesIves/github-pages-deploy-action@v4
+      with:
+        branch: master
+        folder: docs-dist
   Explore-GitHub-Actions:
     runs-on: ubuntu-latest
     steps:
