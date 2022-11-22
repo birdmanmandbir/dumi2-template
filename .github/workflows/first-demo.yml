@@ -1,6 +1,26 @@
-name: GitHub Actions Demo
-on: [push]
+name: 🚀 Deploy
+on: 
+  push:
+    branches:
+      - master
 jobs:
+  # 开始打包
+  Build:
+    runs-on: ubuntu-latest
+    steps:
+    - name: install pnpm
+      uses: pnpm/action-setup@v2
+      with:
+        version: 7.13.2
+    - name: checkout code
+      # 迁出触发的流程的版本 能让下面的工作流程访问
+      uses: actions/checkout@v3
+      # setup-node 可以提供node环境，指定node版本以及 npm /yarn缓存
+    - name: actions/setup-node@v2
+      uses: actions/setup-node@v2   
+      with:
+        node: 16.14
+    - run: pnpm install && pnpm run docs:build
   Explore-GitHub-Actions:
     runs-on: ubuntu-latest
     steps:
