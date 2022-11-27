@@ -36,18 +36,6 @@ export function drawText(scene: Scene) {
 
       scene.addLayer(chinaPolygonLayer);
       scene.addLayer(layer2);
-
-      // 加了这一段
-      document.addEventListener(
-        'click',
-        () => {
-          scene.fitBounds([
-            [112, 32],
-            [114, 35],
-          ]);
-        },
-        false,
-      );
     });
   fetch(
     'https://gw.alipayobjects.com/os/bmw-prod/c4a6aa9d-8923-4193-a695-455fd8f6638c.json', //  标注数据
