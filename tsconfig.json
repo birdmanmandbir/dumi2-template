@@ -11,6 +11,7 @@
       "@@/*": [".dumi/tmp/*"],
       "dumi2-template": ["src"],
       "dumi2-template/*": ["src/*", "*"]
-    }
+    },
+    "resolveJsonModule": true
   }
 }
