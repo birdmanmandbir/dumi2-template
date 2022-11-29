@@ -13,7 +13,7 @@ export default function NextTopo({ id, config, data, onSave }: NextTopoProps) {
   const containerRef = useRef<HTMLDivElement>(null);
   const [graphState, setGraphState] = useState<Graph>();
 
-  const width = containerRef.current?.scrollWidth;
+  const width = containerRef.current?.scrollWidth || 500;
   const height = containerRef.current?.scrollHeight || 500;
 
   useEffect(() => {

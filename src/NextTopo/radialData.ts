@@ -1,4 +1,4 @@
-export const radialMockData = {
+const radialMockData = {
   nodes: [
     {
       id: '0',
@@ -380,6 +380,13 @@ export const radialMockData = {
     },
   ],
 };
+
+const nodes = radialMockData.nodes;
+nodes.forEach((node) => {
+  node.size = Math.random() * 20 + 10;
+});
+
+export { radialMockData };
 
 export const radialConfig = {
   modes: {
